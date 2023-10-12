@@ -1,0 +1,15 @@
+.custom-input {
+  /* height: 60px; */
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px solid red;
+    
+}
+
+.card {
+  margin: 10px;
+  padding: 20px;
+  background-color: "lightblue";
+  background-color: lightblue;
+  border: 1px solid red;
+}
