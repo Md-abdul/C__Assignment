@@ -1,0 +1,85 @@
+{
+  "Clinic": [
+    {
+      "id": 1,
+      "name": "City General Hospital"
+    },
+    {
+      "id": 2,
+      "name": "Healthcare Clinic"
+    },
+    {
+      "name": "ddd",
+      "id": 3
+    }
+  ],
+  "Doctor": [
+    {
+      "id": 1,
+      "name": "Dr. John Smith",
+      "clinicId": 1,
+      "specialties": [
+        "Cardiology",
+        "Internal Medicine"
+      ],
+      "availability": [
+        "Monday 9:00 AM - 5:00 PM",
+        "Wednesday 10:00 AM - 6:00 PM"
+      ],
+      "appointmentRate": 100
+    },
+    {
+      "id": 2,
+      "name": "Dr. Emily Johnson",
+      "clinicId": 2,
+      "specialties": [
+        "Dermatology",
+        "Pediatrics"
+      ],
+      "availability": [
+        "Tuesday 9:00 AM - 4:30 PM",
+        "Thursday 1:00 PM - 7:00 PM"
+      ],
+      "appointmentRate": 120
+    },
+    {
+      "name": "ak",
+      "specialties": [
+        "Cardiology"
+      ],
+      "availability": [
+        "19-10-2023"
+      ],
+      "appointmentRate": "500",
+      "id": 3
+    }
+  ],
+  "Appointment": [
+    {
+      "doctor": "Phil Hermonyx",
+      "date": "20-10-23",
+      "patient": "dddddddddddd",
+      "id": 3
+    },
+    {
+      "doctor": "Len Don Ayer",
+      "date": "20-10-23",
+      "patient": "fsfsdf",
+      "id": 4
+    }
+  ],
+  "AppointmentHistory": [
+    {
+      "id": 1,
+      "doctorId": 1,
+      "date": "2023-10-18",
+      "patient": "John Doe"
+    },
+    {
+      "id": 2,
+      "doctorId": 1,
+      "date": "2023-10-19",
+      "patient": "Jane Smith"
+    }
+  ]
+}
