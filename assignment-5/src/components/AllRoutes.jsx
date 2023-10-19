@@ -5,12 +5,14 @@ import ClinicManagement from "../Pages/ClinicManagement";
 import DoctorManagement from "../Pages/DoctorManagement";
 import AvailabilityCheck from "../Pages/AvailabilityCheck";
 import AppointmentHistory from "../Pages/AppointmentHistory";
+import { Home } from "../Pages/Home";
 
 export const AllRoutes = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<AppointmentBooking />} />
+        <Route path="/" element={<Home/>}/>
+        <Route path="/appointmentbooking" element={<AppointmentBooking />} />
         <Route path="/clinicmanagment" element={<ClinicManagement />} />
         <Route path="/doctormanagement" element={<DoctorManagement />} />
         <Route path="/availabilitycheck" element={<AvailabilityCheck />} />
